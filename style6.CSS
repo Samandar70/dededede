@@ -1,0 +1,42 @@
+.conteiner{
+    background-color: blue;
+    width: 500px;
+    height: 350px;
+    margin: auto;
+    margin-top: 200px;
+    display: flex;
+}
+.box{
+    background-color: blue;
+    width: 100px;
+    height: 170px;
+    border: 2px solid white;
+    border-radius: 80px;
+    margin: auto;
+    padding-top: 20px;
+}
+.box1{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50px;
+    margin: auto;
+    animation-name: Samandar;
+    animation-duration: 1s;
+    animation-delay: 5;
+    position: relative;
+    animation-iteration-count: infinite;
+
+    
+    
+}
+@keyframes Samandar {
+    0% {
+        background-color: white;
+      top: 0px;
+    }
+    100% {
+        background-color: blue;
+        top: 150px;
+    }
+}
